@@ -5,6 +5,6 @@ openssl req \
     -keyout server.key \
     -new \
     -out server.crt \
-    -config ./openssl-custom.cnf \
+    -config ./config.cnf \
     -sha256 \
     -days 365
